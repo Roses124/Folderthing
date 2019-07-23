@@ -1,6 +1,6 @@
 # --- Define your functions below! ---
 import random
-sports = ["tennis", "baseball", "softball", "basketball", "track", "swim", "dance", "soccer", "football", "field hocky", "lacrosse"]
+sports = ["tennis", "baseball", "softball", "basketball", "track", "swim", "dance", "soccer", "football", "field hockey", "lacrosse"]
 answer = random.choice(sports)
 answer = answer.lower()
 valid_greetings = ["hi", "hey", "hello", "sup", "howdy"]
