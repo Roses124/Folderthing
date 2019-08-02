@@ -1,0 +1,40 @@
+h1 {
+  font-size: 40pt;
+  color: black;
+  border-bottom: 4px solid black;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image:url("390126_conquestus_sky-daytime.jpg")
+}
+
+h2 {
+  font-size: 30pt;
+  color: black;
+  border-left-style: 2px solid black;
+}
+
+h3 {
+  font-size: 45pt;
+  color: black;
+}
+
+h4 {
+  font-size: 14pt;
+  color: gray;
+}
+
+.header {
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 45%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

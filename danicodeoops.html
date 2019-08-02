@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Weather Map</title>
+   <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+   <script src = "danicode.js" type = "text/javascript"></script>
+</head>
+<body>
+  <p>
+      <button onclick = "panHome()">Pan back to Home</button>
+    </p>
+    <textarea id = "country-name" rows = "1" cols = "20">Input a country.</textarea>
+    <button onclick = "makeCountryRequest()">Pan to location.</button>
+  <div id = "map" class = "map">
+
+    </div>
+
+	<footer>
+		<p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
+	</footer>
+</body>
+</html>
